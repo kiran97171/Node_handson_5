@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'time new roman';
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    letter-spacing: 2px;
+    margin-right: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.app {
+    align-items: center;
+    margin-left: 230px;
+}
+
+.chat-box {
+    width: 40%;
+    height: 400px;
+    border: 1px solid black;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    margin-left: 150px;
+    background-image: url('https://img.freepik.com/premium-vector/social-networks-dating-apps-vector-seamless-pattern_341076-469.jpg?w=740');
+}
+.sender {
+    background-color: wheat;
+    color: black;
+    border-radius: 25px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 230px;
+}
+
+.receiver {
+    background-color: rgb(171, 141, 240);
+    border-radius: 30px;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+input[type=text] {
+    width: 150px;
+    height: 40px;
+    margin-left: 150px;
+    font-size: 20px;
+}
+
+form {
+    margin-top: 10px;
+    display: flex;
+}
+
+textarea {
+    height: 40px;
+    width: 150px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+button {
+    width: 80px;
+    margin-left: 20px;
+    font-size: 20px;
+    background-color: dodgerblue;
+    border: none;
+    border-radius: 30px;
+}
